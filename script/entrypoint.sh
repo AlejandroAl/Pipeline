@@ -88,7 +88,7 @@ case "$1" in
     ;;
   worker|scheduler)
     # To give the webserver time to run initdb.
-    sleep 40
+    sleep 100
     exec airflow "$@"
     ;;
   flower)
