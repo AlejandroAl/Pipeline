@@ -9,7 +9,7 @@ from src import dispersion_postgres
 
 
 default_args = {
-    'owner': 'arkon_data',
+    'owner': 'conekta',
     'start_date': datetime(2020, 4, 25),
     'retries': 1,
     'retry_delay': timedelta(minutes=5),
